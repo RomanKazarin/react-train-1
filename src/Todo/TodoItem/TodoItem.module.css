@@ -1,0 +1,25 @@
+.TodoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem 1rem;
+  border: 1px solid #CCC;
+  border-radius: 4px;
+  margin-bottom: .5rem;
+}
+
+.TodoItem input {
+  margin-right: 1rem;
+}
+
+.TodoItem button {
+  background: crimson;
+  color: #FFF;
+  border-radius: 50%;
+  border: none;
+  padding-top: 2px;
+}
+
+.done span{
+  text-decoration: line-through;
+}
